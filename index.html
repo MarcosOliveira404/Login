@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela_Login</title>
+    <link rel="shortcut icon" href="../Login/icon/God-Of-War.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Chamando icon do formulario -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Arquivo css-->
+    <link rel="stylesheet" href="css/media_query.css"> <!-- Arquivo css-->
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+                <!-- Foto da Logo -->
+            </div>
+            <div id="formulario">
+                <h1>-- Login --</h1>
+                <p>Seja bem-vindo(a). faça login para ter acesso ao conteudo.
+
+                    <form action="../Login/Pagina/index_informacao.html" method="post" autocomplete="on">
+
+                       <div class="campo"> <!-- Campo de e-mail -->
+                            <i class="material-icons">person</i>
+                            <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required>
+                            <label for="ilogin"></label>
+                       </div> 
+
+                       <div class="campo"> <!-- Campo de senha -->
+                            <i class="material-icons">vpn_key</i>
+                            <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" minlength="8" maxlength="20" required>
+                            <label for="isenha"></label>
+                        </div>
+
+                       <input type="submit" value="Entrar"> <!-- Botao -->
+                       <a href="#" class="botao">
+                            Esqueci minha senha <i class="material-icons">mail</i>
+                       </a>
+
+                    </form>
+
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
