@@ -4,7 +4,7 @@
     $senha = isset ($_POST["senha"])?$_POST["senha"]:"Senha Invalida";
 
     if ($email = true && $senha = true){
-        include '../Pagina/informacao.html';
+        include 'informacao.html';
         echo "okkk";
     }
     
